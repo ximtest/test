@@ -6,9 +6,9 @@ ini_set('display_errors', 'On');
 return [
 	'db'         => [
 		'host'     => 'localhost',
-		'user'     => 'mv_likefifa',
-		'password' => 'gtGfzt1',
-		'name'     => 'mvasilyev_likefifa',
+		'user'     => 'test',
+		'password' => 'test',
+		'name'     => 'testtask',
 	],
 	'rootDir'    => __DIR__ . DIRECTORY_SEPARATOR . '..',
 	'urlManager' => [
