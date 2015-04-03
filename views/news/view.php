@@ -16,7 +16,7 @@ use models\CommentModel;
 	<a href="/topic/<?= $topicModel->id ?>/news/<?= $model->id ?>/delete">[ delete ]</a>
 </h1>
 <div><?= $model->getDate() ?></div>
-<div><?= $model->text ?></div>
+<div class="news-text"><?= $model->text ?></div>
 
 <h3>Comments</h3>
 <div id="comments-container">

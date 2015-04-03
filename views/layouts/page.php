@@ -11,10 +11,17 @@
 	<script src="/public/js/common.js"></script>
 </head>
 <body>
+<div id="header">
+	<div class="container">
+		<a href="/">Test</a>
+	</div>
+</div>
 <div class="container">
-	<a href="/">Test</a>
-	<?= $this->getTopicTree(); ?>
-	<div><a href="/topic/add/">[ add topic ]</a></div>
-	<?= $content; ?>
+	<div id="left">
+		<?= $this->getTopicTree(); ?>
+		<div><a href="/topic/add/">[ add topic ]</a></div>
+	</div>
+	<div id="content"><?= $content; ?></div>
+	<div class="clear"></div>
 </div>
 </body>

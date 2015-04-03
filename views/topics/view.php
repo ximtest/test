@@ -12,7 +12,7 @@
 		<a href="/topic/<?= $model->id ?>/news/add/">[ add news ]</a>
 	</h1>
 <?php foreach ($newsList as $news) { ?>
-	<div>
+	<div class="news-item">
 		[<?= $news->getDate() ?>] <a href="/topic/<?= $model->id ?>/news/<?= $news->id ?>/"><?= $news->title ?></a>
 	</div>
 <?php } ?>
